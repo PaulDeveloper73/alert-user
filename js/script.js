@@ -6,7 +6,7 @@ const initApp = () => {
   const okBtn = document.getElementById('popup-ok-btn')
   const clickMe = document.querySelector('#click-me')
 
-  // CF7 success listener
+  // click btn listener
   clickMe.addEventListener('click', function () {
     popup.style.display = 'flex'
   })
